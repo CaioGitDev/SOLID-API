@@ -3,7 +3,7 @@ interface IAdress {
   name: string;
 }
 
-interface IMessage {
+export interface IMessage {
   to: IAdress;
   from: IAdress;
   subject: string;
